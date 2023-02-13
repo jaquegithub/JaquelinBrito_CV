@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 100vh;
+}
+
+
+section#main{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#main img{
+
+    width:200px;height:220px;
+    margin: 5px;
+    
+}
+
+.knowledge-details{
+    border: 25px solid gray;
+    width: 300px;
+    margin: 20;
+    
+
+}
+ .knowledge-list {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+ h1{
+    font-size: 3rem;
+}
+ h2{
+    font-size: 2rem;
+    align-items: center;
+}
+
+section#knowledge  h2{
+    justify-content: center;
+    
+
+}
+.knowledge-details img {
+    width: 300px;
+    height: 300px;
+
+}

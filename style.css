@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section{
+ margin: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    background-image: url(./imagenes/escritorio2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 200vh;
+    height: 100vh;
+}
+
+#img1{
+    margin: 40px;
+    position: relative;
+    background: #fff;
+    padding: 5px;
+    width: 200px;
+    height: 220px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0,0,0,.25);
+ 
+}
+
+div{
+  float: left;
+  display: flex;
+  margin: 20px;
+margin-bottom: 120px;
+justify-content: center;
+
+}
+a {
+    color:#999;
+    transition:color .2s;
+    font-size: 2em;
+    margin: 20px;
+    text-align: center;
+  }
+
+
+  a:hover {
+    color: green;
+    
+  }
+   a:hover{
+transform: scale(1.5);
+ }
+
+
+#user-title{
+  color: #999;
+  font-size: 18px;
+  margin: -10px;
+  font-family: Ubuntu,sans-serif;
+}
+#user-value{
+  color: #2c2e31;
+  font-size: 38px;
+  margin: -25px;
+  font-family: Ubuntu,sans-serif;
+}
+.hide {
+    display: none;
+      
+  }
+
+    .data-title:hover + .hide  {
+   display: block;
+   position: absolute;
+   top: 60%;
+   text-align: center;
+   color: #999;
+   font-size: 38px;
+   margin:auto;
+    }
+ 
+
+.data-Birthdate:hover + .hide {
+  display: block;
+  position: absolute;
+  top: 60%;
+  text-align: center;
+  color: #999;
+  font-size: 38px;
+  margin:auto;
+}
+
+.data-email:hover + .hide {
+  display: block;
+  position: absolute;
+  top: 60%;
+  text-align: center;
+  color: #999;
+  font-size: 38px;
+  margin:auto;
+}
+
+
+.data-github:hover + .hide {
+  display: block;
+  position: absolute;
+  top: 60%;
+  text-align: center;
+  color: #999;
+  font-size: 38px;
+  margin:auto;
+}
+.data-cellphone:hover + .hide {
+  display: block;
+  position: absolute;
+  top: 60%;
+  text-align: center;
+  color: #999;
+  font-size: 38px;
+  margin:auto;
+}
+
+.data-direction:hover + .hide {
+  display: block;
+  position: absolute;
+  top: 60%;
+  text-align: center;
+  color: #999;
+  font-size: 38px;
+  margin:auto;
+}
+
+
+
